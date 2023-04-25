@@ -8,7 +8,7 @@
     android:layout_height="wrap_content"
     android:id="@+id/dialogBox"
     app:layout_constraintTop_toTopOf="parent"
-    android:background="@color/black"
+    android:background="@color/teal_700"
     tools:ignore="MissingDefaultResource"
     android:layout_marginTop="30dp">
     <TextView
@@ -19,30 +19,30 @@
         android:padding="10dp"
         android:textSize="30sp"
         android:textColor="@color/white"
-        android:drawablePadding="68dp"
+        android:drawablePadding="30sp"
         app:layout_constraintTop_toTopOf="parent"/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="92dp"
+        android:layout_marginTop="100dp"
         android:drawablePadding="68dp"
         android:padding="10dp"
-        android:text="Volntaria"
-        android:textColor="@color/white"
-        android:textSize="30sp"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="-16dp" />
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="152dp"
-        android:drawablePadding="68dp"
-        android:padding="10dp"
-        android:text="Drink 2l wtr"
+        android:text="Learn Programingh"
         android:textColor="@color/white"
         android:textSize="30sp"
         app:layout_constraintTop_toTopOf="parent"
         tools:layout_editor_absoluteX="0dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="176dp"
+        android:drawablePadding="68dp"
+        android:padding="10dp"
+        android:text="travel "
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="-16dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
